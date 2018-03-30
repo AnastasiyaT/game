@@ -1,0 +1,192 @@
+/*@import "grid.css";*/
+
+body {
+    background: rgb(125,185,232); /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, rgba(125,185,232,1) 0%, rgba(32,124,202,1) 49%, rgba(41,137,216,1) 50%, rgba(30,87,153,1) 100%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(125,185,232,1) 0%,rgba(32,124,202,1) 49%,rgba(41,137,216,1) 50%,rgba(30,87,153,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center, rgba(125,185,232,1) 0%,rgba(32,124,202,1) 49%,rgba(41,137,216,1) 50%,rgba(30,87,153,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#1e5799',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+h1 {
+    color: navy;
+    font-size: 200%;
+    font-family: Arial, Verdana, sans-serif;
+    text-align: center;
+}
+/*index*/
+.image { 
+    width:620px;
+    height: 627px;   
+    display: block;
+    margin: 0 auto;
+}
+
+.image2 { 
+    width: 620px;  
+    height: 300px;
+    /*border: solid 1px DarkBlue;*/
+    display: block;
+    margin: 0 auto;
+}
+
+.gameField {    
+    width:620px;
+    height: 627px;   
+    display: block;
+    margin: 0 auto;
+
+}
+
+/*Предисловие intro*/
+.text {
+    width: 620px;
+    height: 700px;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+.nav a, .buttons {    
+    border: solid 1px navy;
+    border-radius: 3px;
+    background:lightgrey;
+    display: block;
+}
+
+/*figure {
+    text-align: center;
+}*/
+
+a {
+	text-decoration: none;
+	color: navy;
+} 
+
+.menu, .buttons  {
+    width: 620px;
+    height: 24px;
+	text-align: center;
+	font-weight: bold;
+    background: SteelBlue; /*#FFFAFA;*/  
+    margin: 0 auto;   
+}
+
+.menu li, .buttons  {    
+    display: inline-block;
+    list-style-type: none;   
+}
+
+.nav , .buttons {  
+    text-align: center;
+    margin: 1px 1px;
+    width: 118px;
+}
+
+.nav a , .buttons {
+    background: PowderBlue;
+}
+
+/*manual*/
+/*GAME*/
+.row-container {
+    display: flex;
+    flex-direction: wrap;
+    margin-left: 21%;  
+    margin-right: 12%;
+    width: 620px;
+}
+.col-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex3 {
+    flex: 3;
+    /*background: PowderBlue;*/
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b3dced+0,29b8e5+50,bce0ee+100;Blue+Pipe */
+    background: rgb(179,220,237); /* Old browsers */
+    background: -moz-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(179,220,237,1) 0%,rgba(41,184,229,1) 50%,rgba(188,224,238,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(179,220,237,1) 0%,rgba(41,184,229,1) 50%,rgba(188,224,238,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee',GradientType=1 ); /* IE6-9 */
+    height:612px;
+    text-align:center;   
+    font-size:18px;
+    padding-top:10px;
+    color: navy;
+    font-family: Arial, Verdana, sans-serif;
+}
+
+
+.content {  
+    background:
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7db9e8+0,207cca+49,2989d8+50,1e5799+100 */
+    background: rgb(125,185,232); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(125,185,232,1) 0%, rgba(32,124,202,1) 49%, rgba(41,137,216,1) 50%, rgba(30,87,153,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(125,185,232,1) 0%,rgba(32,124,202,1) 49%,rgba(41,137,216,1) 50%,rgba(30,87,153,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(125,185,232,1) 0%,rgba(32,124,202,1) 49%,rgba(41,137,216,1) 50%,rgba(30,87,153,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#1e5799',GradientType=0 ); /* IE6-9 */       
+    /*height:685px;*/
+    width: 340px;
+    height: 680px;
+    text-align:center;    
+}
+
+.flex1 {
+    flex: 1;
+}
+
+.contentIn1 {
+    height: 340px;
+    width: 340px;
+    background: grey;
+}
+
+.contentIn2 {
+    height: 340px;
+    width: 340px;
+    background: blue;
+}
+
+.rule_container {
+   /* flex: 9;*/
+    height:620px;
+    text-align:center;
+    background: SteelBlue;
+    margin-left: 5.5%;  
+    margin-right: -5.5%;
+}
+
+
+/*
+.footer     {
+    background:grey; 
+    height:50px;
+    text-align:center;
+    color:#FFFFFF;
+    font-size:14px;
+    padding-top:10px;
+     margin-left: 20%;  
+    margin-right: 20%;
+}
+*/
+/*.tst-col {
+    height: 500px;  
+    color: navy 
+}
+
+.position-static {
+    width: 500px;
+    height: 30px;
+    border: 3px solid #0033FF;
+    margin: 10px;
+    background: #003399;
+    text-align: center;
+}
+.button {
+  background: #003399;  
+}
+
+#footer {
+    text-align: center;
+}*/
